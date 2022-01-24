@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 20px 10px;
+    background: linear-gradient(180deg, skyblue,pink,white); 
+    height: 600px;
+    overflow: hidden;   
+    
+}
+
+.Header{
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.color{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.table-main{
+    background-color: pink;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-left: 235px;
+}
+
+.table-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.add-student-btn{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(235, 18, 18);
+    font-weight: bold;
+    font-size: 20px;
+
+    
+}
+
+.center{
+    text-align: center;
+}
